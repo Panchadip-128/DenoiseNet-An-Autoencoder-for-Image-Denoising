@@ -23,7 +23,9 @@ Results Visualization:
 The project visualizes the results by displaying the original noisy images, the denoised images produced by the autoencoder, and the corresponding clean images. This comparison showcases the effectiveness of the autoencoder in noise reduction.
 Applications:
 
-DenoiseNet has significant applications in fields like photography, video processing, medical imaging, and any area where image quality is paramount. It can be used to enhance images captured in low-light conditions or those affected by various types of noise.
+DenoiseNet has significant applications in fields like photography, video processing, medical imaging, and any area where image quality is paramount. It can be used to enhance images captured in low-light conditions or those affected by various types of noise. Please note During preprocessing, CIFAR-10 images are often normalized, augmented, or scaled in such a way that fine details are lost. For instance:
+Normalization: Normalizing the pixel values to a range (e.g., between 0 and 1) may make images appear a bit less sharp when visualized.
+Augmentation: Random cropping or resizing can also reduce image clarity.(For better clarity one can use images from ImageNet or CIFAR 100) 
 Sample model output:
 ![Sample output ](https://github.com/user-attachments/assets/b137edae-89a2-43a8-b157-15128137e92f)
 
