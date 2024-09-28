@@ -24,3 +24,6 @@ The project visualizes the results by displaying the original noisy images, the 
 Applications:
 
 DenoiseNet has significant applications in fields like photography, video processing, medical imaging, and any area where image quality is paramount. It can be used to enhance images captured in low-light conditions or those affected by various types of noise.
+Sample model output:
+![Sample output ](https://github.com/user-attachments/assets/b137edae-89a2-43a8-b157-15128137e92f)
+
